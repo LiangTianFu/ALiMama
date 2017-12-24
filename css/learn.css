@@ -1,0 +1,45 @@
+.learn-wrapper { width: 100%; overflow: hidden; margin-top: 80px; background-color: #f4f4f4 }
+.learn-wrapper .learn-banner { height: 400px; background: url(../images/learn-bg.png) no-repeat center center; text-align: center; color: #fff; overflow: hidden }
+.learn-wrapper .learn-banner .learn-title { font-size: 60px; margin-top: 100px; font-weight: 700 }
+.learn-wrapper .learn-banner .subtitle { font-size: 24px }
+.learn-wrapper .college-wrap { height: 310px; background: linear-gradient(to right, #5a2cff, #e2485f) }
+.title { display: block; text-align: center; padding: 80px 0 60px; color: #fff }
+.service-title,
+.rule-title { color: #000 }
+.title .headtitle { font-size: 28px; display: block }
+.title .subtitle { font-size: 16px; display: block }
+.service-title .subtitle,
+.rule-title .subtitle { color: #999 }
+.more { font-size: 16px; margin: 36px auto; display: block; width: 100%; text-align: center; color: #000 }
+.college-wrap  .college-content { }
+.college-wrap  .college-content .list { text-align: center }
+.college-wrap  .college-content .list .item { width: 23%; height: 156px; overflow: hidden; margin-right: 2%; position: relative; float: left; border-radius: 4px; box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, .1) }
+.college-wrap  .college-content .list .item1 { background: url(../images/learn-list-bg.jpg) no-repeat right bottom #fff }
+.college-wrap  .college-content .list .item2 { background: url(../images/learn-list-bg2.png) no-repeat right bottom #fff }
+.college-wrap  .college-content .list .item3 { background: url(../images/learn-list-bg3.jpg) no-repeat right bottom #fff }
+.college-wrap  .college-content .list .item4 { background: url(../images/learn-list-bg4.jpg) no-repeat right bottom #fff }
+.college-wrap  .college-content .list .item .item-link { display: block; position: relative }
+.college-wrap  .college-content .list .item .item-link .item-name { font-size: 18px; color: #000; display: block; padding: 20px 0 }
+.college-wrap  .college-content .list .item .item-link .item-info { font-size: 12px; display: block; color: #666 }
+.college-wrap  .college-content .list .item .item-mask { position: absolute; width: 100%; height: 100%; left: 0; top: 0; overflow: hidden; visibility: hidden }
+.college-wrap  .college-content .list .item:hover .item-mask { background: #f60; color: #fff; visibility: visible; transition: 0.5s }
+.college-wrap  .college-content .list .item:hover .item-mask .start { background: #f60; color: #fff; border-color: #fff }
+.college-wrap  .college-content .list .item .item-mask .icon { font-size: 50px; co#fff }
+.college-wrap  .college-content .list .item .item-mask .start { color: #fff; box-shadow: none; display: block; width: 209px; height: 39px; margin: 0 auto; line-height: 39px; text-align: center; font-size: 16px; border: 1px solid #f60; border-radius: 20px }
+.learn-wrapper .service-center-wrap { margin-top: 100px }
+.service-center-wrap .list,
+.rule-wrap .list { height: 320px; padding-top: 60px }
+.service-center-wrap .list .item,
+.rule-wrap .list .item { width: 32%; height: 320px; position: relative; margin-right: 10px; float: left; border-radius: 4px; box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, .1); background: #fff }
+.service-center-wrap .list .item .big-icon { color: #fff; font-size: 30px; width: 86px; height: 86px; line-height: 86px; text-align: center; border-radius: 50%; background: #0b1d3f; position: absolute; left: 50%; top: -43px; margin-left: -43px }
+.list .item dl { padding-top: 70px }
+.rule-wrap .list .item dl { padding: 0 0 10px }
+.service-center-wrap .list .item .item-name { color: #333; font-size: 18px; line-height: 36px; margin: 20px 0; text-align: center }
+.list .item dl dd { padding: 0 30px; max-width: 80%; margin-bottom: 20px; line-height: 32px; font-size: 16px; position: relative }
+.list .item dl dd a { display: block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #666 }
+.list .item dl dd .icon { position: absolute; right: 12px; bottom: 0 }
+.rule-wrap .list { padding-top: 0; padding-bottom: 100px }
+.rule-wrap .list .item { padding-bottom: 30px }
+.rule-wrap .list .item .rule-item-name { background: #0b1d3f; margin: 0 auto; width: 100%; height: 80px; line-height: 80px; color: #fff; text-align: center; font-size: 18px; margin-bottom: 30px }
+.rule-wrap .list .item .pro-btn { width: 230px; height: 40px; margin: 0 auto; text-align: center; color: #5a2dff; font-size: 16px; border: 1px solid #5a2dff; line-height: 40px; border-radius: 20px; font-weight: 200; display: block }
+.rule-wrap .list .item .pro-btn:hover { color: #f60; border: 1px solid #f60 }

@@ -1,0 +1,83 @@
+
+.container { width: 100%; margin: 0 auto; }
+.header-wrapper { width: 100%; height: 80px; background: #09122b url(../images/header-bg.png) no-repeat 50% 100%; top: 0; z-index: 100;position: fixed;}
+
+.header-wrapper .header a { display: inline-block; color: #fff; font-size: 14px; }
+.header-wrapper .header .logo { margin-top: 15px; margin-right: 148px; height: 50px; float: left; }
+.header-wrapper .header .logo img { height: 50px; }
+.header-wrapper .header .nav { float: left; line-height: 80px; }
+.header-wrapper .header .nav li { height: 79px; float: left; padding: 0 19px; box-sizing: border-box; }
+.header-wrapper .header .nav li:hover a { color: #f60;}
+.header-wrapper .header .nav li.active { border-bottom: 1px solid #f60; }
+.header-wrapper .header .nav li.active a { color: #f60; }
+.header-wrapper .header .nav li.product .product-menu{height: 0;text-align:center; overflow:hidden;visibility: hidden; position: absolute; left: 0;width: 100%; z-index: 10;background: rgba(9,18,43,0.9);transition: 0.2s; font-size: 14px;}
+.header-wrapper .header .nav li.product .product-menu .product-list{width: 80%;color: #fff;line-height: 1;}
+.header-wrapper .header .nav li.product .product-menu .product-list .name{color: #fff;width: 100%;float: left;text-align: center;line-height: 100px;}
+.header-wrapper .header .nav li.product .product-menu .product-list .product{width: 16%;float: left;}
+.header-wrapper .header .nav li.product .product-menu .product-list .product img{display: block;height: 32px;margin: 0 auto;}
+.header-wrapper .header .nav li.product .product-menu .product-list .product span{padding-top: 6px;display: block;}
+.header-wrapper .header .nav li.product .product-menu .media-list{width: 15%;color: #fff;line-height: 1;}
+.header-wrapper .header .nav li.product .product-menu .media-list .name{color: #fff;width: 100%;float: left;line-height: 100px;}
+.header-wrapper .header .nav li.product .product-menu .media-list .media{width: 100%;float: left;}
+.header-wrapper .header .nav li.product .product-menu .media-list .media img{display: block;height: 32px;margin: 0 auto;}
+.header-wrapper .header .nav li.product .product-menu .media-list .media span{padding-top: 6px;display: block;}
+.header-wrapper .header .nav li.product:hover .product-menu {height: 250px;visibility: visible;}
+.header-wrapper .header .nav li.learn .learn-menu{height: 0;text-align:center;overflow:hidden;visibility: hidden;position: absolute; left: 0;width: 100%; z-index: 10;background: rgba(9,18,43,0.9);transition: 0.2s; }
+.header-wrapper .header .nav li.learn:hover .learn-menu {height: 150px;visibility: visible;}
+
+.header-wrapper .header .nav li.learn .learn-menu a{width: 200px;line-height: 100px; color: #fff;}
+.header-wrapper .header .nav li.learn .learn-menu .learn-item:hover{width: 200px;line-height: 100px; color: #f60;}
+.header-wrapper .header .login { margin: 20px 0; float: right; }
+.header-wrapper .header .login a { display: block; color: #fff; border: 1px solid #fff; padding: 10px 25px; border-radius: 20px; font-size: 12px; }
+.header-wrapper .header .login:hover a { color: #f60; border: 1px solid #f60; }
+
+.footer-wrapper{background: #070e23;height: 100%;overflow: hidden;position: relative;padding: 80px 0 60px;}
+.footer-wrapper .logo{float: left;width: 25%;}
+.footer-wrapper .logo img{width: 110px;}
+.footer-wrapper .link{float: left;width: 60%;}
+.footer-wrapper .link dl{float: left;width: 33.333%;font-size: 16px;text-align: center;}
+.footer-wrapper .link dt{color: #999;padding-bottom: 16px;}
+.footer-wrapper .link dd{line-height: 30px;}
+.footer-wrapper .link dd a{color: #fff;}
+.footer-wrapper .link dd:hover a{color: #f60;}
+.footer-wrapper .code{float: right; width: 170px;text-align: center;}
+.footer-wrapper .code img{ width: 92px;padding-bottom: 10px;}
+.footer-wrapper .code p{color: #fff;line-height: 24px;font-size: 14px;}
+
+.footer-wrapper .footer-bottom{padding: 60px 10px 10px;}
+.footer-wrapper .footer-bottom .bottom-info{}
+.footer-wrapper .footer-bottom .bottom-info .bottom-link{}
+.footer-wrapper .footer-bottom .bottom-info .bottom-link a{color: #999;}
+.footer-wrapper .footer-bottom .bottom-info .bottom-link b{color: #fff;margin: auto;padding: 0 10px;}
+.footer-wrapper .footer-bottom .bottom-info .group-link{line-height: 40px;}
+.footer-wrapper .footer-bottom .bottom-info .group-link a{color: #999;}
+.footer-wrapper .footer-bottom .bottom-info .group-link b{color: #fff;margin: auto;padding: 0 10px;}
+
+
+.btnmore{position:relative;}
+.btnmore:before{position:absolute;background:#f60;content:"";width:100%;height:100%;top: 0;left:0;z-index: 1;border-radius: 25px;transform:scaleX(0);transition:all 0.5s;}
+.btnmore span{z-index: 10;position: relative;}
+.btnmore:hover:before{transform:scaleX(1);}
+
+.spot-box{position: absolute;z-index: 10;width: 100%;height: 100%;top: 0;left: 0;overflow: hidden;}
+.spot{width:124px;height: 33.333%;position: relative;background: #f60;transform:scale(0.6);border-radius: 50%;visibility: hidden;left: 50%;margin-left:-62px;}
+.spot:after{position:absolute;background:#f60;content:"";width:100%;height:100%;z-index: 9;border-radius:50%;transform:scale(0.6);visibility: hidden;margin-left: 124px;}
+.spot:before{position:absolute;background:#f60;content:"";width:100%;height:100%;z-index: 9;border-radius:50%;transform: scale(0.6);visibility: hidden;margin-left:-124px;}
+
+.spot-box:hover .spot,.spot-box:hover .spot:after,.spot-box:hover .spot:before{border-radius: 0;visibility:visible;transition:all 0.3s;transform: scale(1.1);}
+
+.vertical{position: relative;}
+.vertical:after{position:absolute;top: 0;left: 0;bottom:0;content:"";background: #ccc;width: 2px;height: 46px;margin:auto;}
+.l-vertical{position:relative;top: 100px;left: 0;bottom:0;content:"";background: #ccc;width: 2px;height: 53px;margin:auto;}
+
+
+.line{position: relative;}
+.line:before{position: absolute;top: 0;right: 0;content:"";width: 55px;height: 3px;background: #5a2dff;border-radius: 10px;}
+.adv-line:before{content: "";width: 70px;height: 3px;background: #5a2dff;margin-bottom: 25px;display: block;border-radius: 10px;}
+
+.titleimg {animation: demo 3s ease-in 0s infinite alternate;}
+  @keyframes demo {
+    33% {transform: translateY(0) }
+    66% {transform: translateY(50px)  }
+    99% {transform: translateY(-500px)  }
+  }

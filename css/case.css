@@ -1,0 +1,22 @@
+.case-wrapper{width: 100%;overflow: hidden;margin-top: 80px;}
+.case-wrapper .case-banner{height: 400px;background: url(../images/adv-bg.png)no-repeat center center; text-align: center;color: #fff;overflow: hidden;}
+.case-wrapper .case-banner .case-title{font-size:60px;margin-top: 100px;font-weight: 700;}
+.case-wrapper .case-banner .subtitle{font-size: 24px;}
+
+.case-list{padding:30px 0 60px;overflow: hidden;width: 1160px;margin: 0 auto; background: #fff;}
+.case-list .title{font-size: 30px;text-align: center;font-weight: 400;padding-bottom: 30px;}
+.case-list .case-box{}
+.case-list .case-box .case-item{display: inline-block;font-size: 12px;border-radius: 6px;width: 372px;height: 560px;margin: 0 0 14px 11px;background-color: #fff;overflow: hidden; box-shadow: 2px 2px 6px rgba(0,0,0,.1);}
+.case-list .case-box .case-item .case-link{display: block;color: #000;}
+.case-list .case-box .case-item .case-link .case-img{}
+.case-list .case-box .case-item .case-link .case-img img{width: 100%;}
+.case-list .case-box .case-item .case-link .case-title{height: 122px;overflow: hidden;box-sizing: border-box;padding: 26px;}
+.case-list .case-box .case-item .case-link .case-title h3{font-size: 20px;white-space: nowrap;word-wrap: normal; overflow: hidden;margin-bottom: 12px;font-weight: 400;}
+.case-list .case-box .case-item .case-link .case-title .case-middle{}
+.case-list .case-box .case-item .case-link .case-title .case-middle .time{float: left;padding-top: 2px;color: #999;}
+.case-list .case-box .case-item .case-link .case-title .case-middle .icons{float: right;}
+.case-list .case-box .case-item .case-link .case-title .case-middle .icons .icon{display: inline-block;vertical-align: middle;width: 22px;height: 22px;line-height: 22px;text-align: center;background: #08cc98;color: #fff;border-radius: 50%;font-size: 12px;}
+.case-list .case-box .case-item .case-link .case-info{display: table;width: 100%;border-top: 1px solid #eee;height: 120px;margin-left: -1px;}
+.case-list .case-box .case-item .case-link .case-info .info-item {display: table-cell;width: 50%;vertical-align: middle;text-align: center;border-left: 1px solid #eee;}
+.case-list .case-box .case-item .case-link .case-info .info-item .num{color: #5a2dff;font-size: 30px;}
+.case-list .case-box .case-item .case-link .case-info .info-item .info{font-size: 12px;color: #999;}

@@ -1,0 +1,31 @@
+.about-wrapper{width: 100%;overflow: hidden;margin-top: 80px;background: #0f1335;}
+.about-wrapper .about-banner{height: 400px;background: url(../images/adv-bg.png) no-repeat center center; text-align: center;color: #fff;overflow: hidden;}
+.about-wrapper .about-banner .about-title{font-size: 60px;margin-top: 50px;font-weight: 700;}
+.about-wrapper .about-banner .subtitle{font-size: 24px;}
+
+.about-wrapper .about-item-wrap{height: 460px;overflow: visible;position: relative;}
+.about-wrapper .about-item-wrap .about-item{height: 360px;margin: 0 auto ;position: absolute; top: -50px;left:50%;margin-left:-405px;width: 810px;background: url(../images/about-bg.png) #fff;border-radius: 8px;box-shadow: 2px 2px 20px 0 rgba(0,0,0,.1);}
+.about-wrapper .about-item-wrap .about-item .about-img{position: absolute;top: -40px;left: 50px;}
+.about-wrapper .about-item-wrap .about-item .about-img img{}
+.about-wrapper .about-item-wrap .about-item .content{width: 410px;position: absolute;top: 40px;right: 50px;overflow: hidden;}
+.about-wrapper .about-item-wrap .about-item .content .title{font-size: 22px;}
+.about-wrapper .about-item-wrap .about-item .content .title p{font-size: 22px;padding-bottom: 80px;}
+.about-wrapper .about-item-wrap .about-item .content .desc{ font-size: 14px;line-height: 36px;color: #666;}
+
+.about-wrapper .about-pic{width: 300px;margin: 0 auto 50px;text-align: center}
+.about-wrapper .about-pic .title{font-size: 20px;color: #fff;margin-bottom: 30px;display: block;}
+
+.about-wrapper .timeline{width: 32%;margin: 0 auto;}
+.about-wrapper .timeline .time-list{padding-bottom: 100px;}
+.about-wrapper .timeline .time-list .time-item{position: relative;}
+.about-wrapper .timeline .time-list .time-item .year{ position: relative; padding-left: 38px;color: #fff;font-size: 22px;transition: all 0.5s;}
+.about-wrapper .timeline .time-list .time-item .year:hover{color: #5A2CFF;}
+.about-wrapper .timeline .time-list .time-item .year:before{transition: all 0.5s;position: absolute;left: -5px;bottom: 14px;content:""; width: 10px;height: 10px;background-color: #fff;border-radius: 50%;}
+.about-wrapper .timeline .time-list .time-item .year:hover:before{position: absolute;left: -7px;bottom: 12px;content:""; width: 15px;height: 15px;background-color: #5A2CFF;border-radius: 50%;}
+.about-wrapper .timeline .time-list .time-item .year:after{transition: all 0.5s;position: absolute;content: ""; width: 36px; height: 36px;border: 1px solid #5a2dff;border-radius: 50%;top: 0;left: -19px;display: none;}
+.about-wrapper .timeline .time-list .time-item .year:hover:after{display: block;color: #5a2dff; }
+
+.about-wrapper .timeline .time-list .time-item .time-content{padding:0 0 30px 30px;border-left: 1px solid #5A2CFF;}
+.about-wrapper .timeline .time-list .time-item .time-content .time-info{font-size: 16px;position: relative;color: #fff;}
+.about-wrapper .timeline .time-list .time-item .time-content .time-info:before{position: absolute;content: ""; width: 4px; height: 4px;background: #fff;border-radius: 50%;top: 12px;left:-12px; }
+.about-wrapper .timeline .time-list .last:after{ position: absolute;left: -2px;bottom: 0; content:"";width: 5px; height: 5px;background-color: #5A2CFF;border-radius: 50%;}
